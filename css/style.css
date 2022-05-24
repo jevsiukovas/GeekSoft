@@ -3,11 +3,16 @@
 
 
 body {
-    background: linear-gradient(#ffffff, #FF8500) fixed;
+    background: linear-gradient(#ffffff, #FF8500) fixed;	
+    width: 334px;
+    height: 710px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     border: none;
     /*border: 4px double black;*/ 
 }
